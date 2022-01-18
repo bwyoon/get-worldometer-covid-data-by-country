@@ -1,7 +1,7 @@
 # get-worldometer-covid-data-by-country
 ## prerequisites (필수 사항)
 OS: Linux, WSL in Windows, MacOS <br />
-Software: curl, sed, gnuplot
+packages: curl, sed, gnuplot
 
 ## usage: (사용법)
 python getworldometerscovidata.py US 미국 <br />
