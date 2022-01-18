@@ -1,3 +1,8 @@
+#####################################################################
+# Original authour: Bokwon Yoon
+# With these comments, you are free to copy, distribute, and modify.
+#####################################################################
+
 set term pngcairo enhanced size 960,960 font "Arial, 25"
 set output 'covid-country.png'
 

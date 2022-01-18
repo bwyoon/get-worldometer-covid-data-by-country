@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+#####################################################################
+# Original authour: Bokwon Yoon
+# With these comments, you are free to copy, distribute, and modify.
+#####################################################################
+
 import os
 import sys
 
