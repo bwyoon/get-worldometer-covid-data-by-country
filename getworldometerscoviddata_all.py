@@ -8,10 +8,13 @@
 import os
 import sys
 
-Country = ['South-Africa', 'US', 'Japan', 'Cuba', 'South-Korea', 'Portugal', 'Singapore', 'UK', 'France', 'Israel', 'Germany', 'Italy', 'Ireland']
-CountryKr = ['남아공', '미국', '일본', '쿠바', '한국', '포르투갈', '싱가포르', '영국', '프랑스', '이스라엘', '독일', '이탈리아', '아일랜드']
+Country = [ ['South-Africa', '남아공'], ['US', '미국'], ['Japan', '일본'],
+ ['Cuba', '쿠바'], ['South-Korea', '한국'], ['Portugal', '포르투갈'], 
+ ['Singapore', '싱가포르'], ['UK','영국'], ['France', '프랑스'], 
+ ['Israel', '이스라엘'], ['Germany', '독일'], ['Italy', '이탈리아'], 
+ ['Ireland', '아일랜드'] ]
 
-for c, ckr in zip(Country, CountryKr):
-    cmd = './getworldometerscoviddata.py ' + c + ' ' + ckr
+for c in Country:
+    cmd = './getworldometerscoviddata.py ' + c[0] + ' ' + c[1]
     print(cmd)
     os.system(cmd)
